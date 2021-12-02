@@ -1,7 +1,5 @@
 # Part 1
 
-import numpy as np
-
 with open('Day2_input.txt') as f:
     lines = [line.rstrip() for line in f]
 
