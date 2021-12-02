@@ -8,12 +8,13 @@ with open('Day2_input.txt') as f:
 position = [0, 0]
 
 for x in range(len(lines)):
+    num = int(lines[x][len(lines[x]) - 1])
     if lines[x][0] == 'f':
-        position[0] = position[0] + int(lines[x][len(lines[x]) - 1])
+        position[0] = position[0] + num
     elif lines[x][0] == 'u':
-        position[1] = position[1] - int(lines[x][len(lines[x]) - 1])
+        position[1] = position[1] - num
     else:
-        position[1] = position[1] + int(lines[x][len(lines[x]) - 1])
+        position[1] = position[1] + num
 
 print(position[0] * position[1]) # Ans: 2073315
 
@@ -24,12 +25,13 @@ aim = 0
 position_2 = [0, 0]
 
 for x in range(len(lines)):
+    num = int(lines[x][len(lines[x]) - 1])
     if lines[x][0] == 'u':
-        aim = aim - int(lines[x][len(lines[x]) - 1])
+        aim = aim - num
     elif lines[x][0] == 'd':
-        aim = aim + int(lines[x][len(lines[x]) - 1])
+        aim = aim + num
     else:
-        position_2[0] = position_2[0] + int(lines[x][len(lines[x]) - 1])
-        position_2[1] = position_2[1] + (aim * int(lines[x][len(lines[x]) - 1]))
+        position_2[0] = position_2[0] + num
+        position_2[1] = position_2[1] + (aim * num)
 
 print(position_2[0] * position_2[1]) # Ans: 1840311528
