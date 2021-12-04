@@ -14,7 +14,7 @@ for x in range(len(lines)):
     else:
         position[1] += num
 
-print(position[0] * position[1]) # Ans: 2073315
+print(position[0] * position[1])
 
 # Part 2
 
@@ -32,4 +32,4 @@ for x in range(len(lines)):
         position_2[0] += num
         position_2[1] += (aim * num)
 
-print(position_2[0] * position_2[1]) # Ans: 1840311528
+print(position_2[0] * position_2[1])

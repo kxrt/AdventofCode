@@ -36,7 +36,7 @@ def rate(fun):
 gamma = int(rate(gamma_bin), 2)
 epsilon = int(rate(epsilon_bin), 2)
 
-print(gamma * epsilon) # Ans: 3959450
+print(gamma * epsilon)
 
 # Part 2
 
@@ -77,4 +77,4 @@ def generator(fun):
 o2 = int(generator(o2_bin), 2)
 co2 = int(generator(co2_bin), 2)
 
-print(o2 * co2) # Ans: 7440311
+print(o2 * co2)

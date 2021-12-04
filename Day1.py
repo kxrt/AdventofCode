@@ -11,7 +11,7 @@ def increasing(array):
             result += 1
     return result 
 
-print(increasing(arr)) # Ans: 1713
+print(increasing(arr))
 
 # Part 2
 
@@ -20,4 +20,4 @@ newarr = []
 for x in range(0, len(arr) - 2):
     newarr.append(arr[x] + arr[x + 1] + arr[x + 2])
 
-print(increasing(newarr)) # Ans: 1734
+print(increasing(newarr))
