@@ -1,2 +1,2 @@
 - name: AoC-badges
-  uses: kxrt/aoc-badges-action@v3.0.0
+  uses: J0B10/aoc-badges-action@v3.0.0
