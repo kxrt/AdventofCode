@@ -71,5 +71,3 @@ for x in range(len(cards_counter)):
     for y in range(len(cards_counter[x])):
         for z in range(len(cards_counter[x][y])):
             cards_counter_2[x][y][z] = 0
-
-print('test')
